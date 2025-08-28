@@ -1,0 +1,5 @@
+preguntas:
+  - id: 1
+    dificultad: fácil
+    enunciado: "Escribe una función que sume dos números"
+    ejemplo: "suma(2, 3) → 5"
