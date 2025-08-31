@@ -1,0 +1,60 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+
+# Lockfile de uv (¡no ignorar!)
+# uv.lock
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs y dumps
+*.log
+*.out
+*.err
+
+# Testing / cache
+.pytest_cache/
+.coverage
+.cache/
+
+
+# Archivos de sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Distribución / empaquetado
+*.egg-info/
+dist/
+build/
+
+# Bases de datos locales
+*.sqlite3
+*.db
+
+# Datos y modelos (ML / Data Science)
+data/
+datasets/
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.ckpt
+
+# Configuración sensible
+.env
+.env.*
+secrets.json
+config.ini
