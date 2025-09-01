@@ -5,6 +5,7 @@ import yaml
 PROBLEMS_PATH = Path(__file__).parent / "problems.yaml"
 
 def _questions() -> List[Dict]:
+    
     # Representación funcional: datos inmutables (listas/dicts) y composición
     base = [
         dict(title="Invertir cadena", prompt="Invierte una cadena sin usar reversed().", hints=["Slicing [::-1]"], tags=["strings"]),
