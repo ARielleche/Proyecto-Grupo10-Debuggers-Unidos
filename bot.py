@@ -67,6 +67,8 @@ hasattr(e,'response') else e}")
  
  def cargar_preguntas():
     raise Exception("Sorry, no hay implementación")
+    from Funcional import cargar_preguntas_funcional    
+    cargar_preguntas_funcional()
 
 def main():
  if not BOT_TOKEN or not CHANNEL_ID:
